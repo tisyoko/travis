@@ -7,4 +7,4 @@ before_script
   - echo "travis test"
 
 script:
-  - mkdir -p build/logs
+  - echo "exec script"
