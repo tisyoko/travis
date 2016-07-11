@@ -1,4 +1,4 @@
-!#/bin/sh
+#!/bin/sh
 
 hoge=$1
 fuge=$2
