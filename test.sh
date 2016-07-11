@@ -8,10 +8,10 @@ echo ${hoge}
 echo ${fuga}
 echo -----
 
-if  ${hoge} = 100 ; then
+if [ ${hoge} -eq 100 ] ; then
   echo "ok"
 fi
 
-if  ${fuga} = "hoge" ; then
+if [ ${fuga} = "hoge" ] ; then
   echo "ok2"
 fi
