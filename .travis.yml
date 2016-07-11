@@ -8,7 +8,7 @@ before_script:
 
 script:
   - echo exec-script
-  - ./test.sh 100 fura
+  - ./test.sh 100 hoge
 
 after_script:
   - echo 'after-script'
