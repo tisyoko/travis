@@ -3,8 +3,11 @@ language: php
 php:
   - '5.6'
 
-before_scripti:
+before_script:
   - echo 'travis-test'
 
 script:
   - echo exec-script
+
+after_script:
+  - echo 'after-script'
